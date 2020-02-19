@@ -10,7 +10,7 @@ function handle($data) {
         'subscription_mail' => <<<EOL
 <h1>Hello {{ name }}!</h1>
 
-<p>You've successfully subscribed to {{mailing_list}}.</p> 
+<p>You've successfully subscribed to {{mailing_list}} mailing list!.</p> 
 <p>To unsubscribe click <a href="{{unsubscribe_link}}">Unsubscribe</a>.</p>
 EOL
     ]);
